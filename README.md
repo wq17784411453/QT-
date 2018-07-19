@@ -45,12 +45,13 @@
 > - Qt是一个针对桌面、嵌入式、移动设备的一个跨平台的应用程序开发框架，支持的平台包括Linux、OS X、Windows、VxWorks、QNX、Android、iOS、BlackBerry(黑莓)、Sailfish OS（旗鱼操作系统）等。
 Qt 1991年由Trolltech-奇趣科技（成立于1994年）开发，2008年，Trolltech被Nokia收购，2012年，Qt被Digia收购。
 > - Qt是基于C++编写的框架，它既可以开发GUI程序，也可用于开发非GUI程序，比如控制台工具和服务器。预处理器，MOC（全称：Meta-Object Compiler-元对象编译器）用于扩展C++，如：信号和槽的特性。在编译之前，先使用MOC分析Qt扩展的C++源文件（检测是否包含Q_OBJECT宏），然后生成符合C++标准的源文件（新文件名将会由moc_加上原文件名构成）。因此框架本身和应用程序/库使用它能被任何符合标准C++的编译器（像Clang、GCC、 ICC、MinGW 和MSVC）所编译。
-> 平台支持
+> 平台支持：
 > - MS/Windows - 95、98、NT4.0、ME、2000、XP 、Vista、Win7、win8、win2008、win10
 > - Unix/X11-Linux、SunSolaris、HP-UX、CompaqTru64 UNIX、IBMAIX、SGI IRIX、FreeBSD、BSD/OS和其它很多X11平台
 > - Macintosh -Mac OS X
 > - Symbian、Symbian^3、Symbian Anna、Symbian Belle、MeeGo
-> 优点
+
+> 优点：
 > - 优良的跨平台特性： 
 >    - Qt支持下列操作系统: Microsoft Windows 95/98， Microsoft Windows NT， Linux， Solaris， SunOS， HP-UX， Digital UNIX (OSF/1， Tru64)， Irix， FreeBSD， BSD/OS， SCO， AIX， OS390，QNX 等等。
 > - 面向对象 
